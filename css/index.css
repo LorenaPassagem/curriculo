@@ -3,10 +3,23 @@ header, footer{
     background-color:rgb(99, 99, 165) ;
 }
 
-.about{
-    padding: 50px;
+.main{
+    display: flex;
 }
 
+.about{
+    padding: 50px;
+   
+}
+.about-nome{
+    margin: 10px;
+}
+.about-role{
+    margin: 10px;
+}
+.aboutme{
+    margin:10px
+}
 .professional{
     padding: 50px;
 }
