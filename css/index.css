@@ -30,6 +30,18 @@ header, footer{
     font-size: 30px;
 }
 
+.skills{
+    margin: 15px;
+}
+
+.skills h4{
+    font-size: 30px;
+}
+
+.contact h4{
+    font-size: 30px;
+}
+
 .professional{
     padding: 50px;
 }
