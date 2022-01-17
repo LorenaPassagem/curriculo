@@ -1,6 +1,9 @@
+body{
+    font-family: 'Comfortaa', cursive;
+}
 header, footer{
     padding: 40px;
-    background-color:rgb(99, 99, 165) ;
+    background-color:rgb(99, 99, 165);
 }
 
 .main{
@@ -15,15 +18,20 @@ header, footer{
 .main .about-name{
     margin: 10px;
     font-size: 50px;
+    color:blueviolet;
 }
 
 .about-role{
     margin: 10px;
     font-size: 30px;
+    padding:0 20px;
 }
 
 .aboutme{
-    margin:10px
+    margin:10px;
+    text-align:justify;
+    width: 500px;
+    padding: 20px;
 }
 
 .aboutme h4{
@@ -32,14 +40,28 @@ header, footer{
 
 .skills{
     margin: 15px;
+    padding: 20px;
+    text-decoration: none;
 }
 
 .skills h4{
     font-size: 30px;
 }
 
+.skills-itens-list .skills-itens{
+    list-style: none;
+}
+
+.contact{
+    padding: 20px;   
+}
+
 .contact h4{
     font-size: 30px;
+}
+
+.contact-itens .itens{
+    list-style:none;
 }
 
 .professional{
