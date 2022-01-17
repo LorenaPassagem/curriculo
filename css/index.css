@@ -7,7 +7,7 @@ header, footer{
 }
 
 .main{
-    display: flex;
+    display: grid;
 }
 
 .about{
@@ -65,7 +65,57 @@ header, footer{
 }
 
 .professional{
-    padding: 50px;
+
+}
+
+.professional div {
+    margin-left: 60px;
+}
+
+.professional-resume{
+    background-color:#6363a5;
+    padding: 20px;
+    margin: 20px;
+    height: 20%;
+    width:70%;
+    text-align: center;
+}
+
+.professional-experience{
+
 }
 
 
+.degree .degree-list{
+    background-color:#6363a5;
+    padding: 20px;
+    margin: 20px;
+    height: 20%;
+    width:70%;
+    text-align: center;
+}
+
+.degree p{
+    margin-left: 60px;    
+}
+
+.course{
+
+}
+
+.course-title{
+    background-color:#6363a5;
+    padding: 20px;
+    margin: 20px;
+    height: 20%;
+    width:70%;
+    text-align: center;
+}
+
+.course-list{
+    margin:20px 50px;
+}
+
+.course-list .course-item{
+    list-style: none;
+}
